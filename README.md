@@ -16,8 +16,9 @@ pg (0.21.0)
 Getting Started
 ---------------
 
-0. Clone
-0. gem install bundler
+0. `git clone https://github.com/ealvaro/blog_nplusone.git`
+0. `cd blog_nplusone`
+0. `gem install bundler`
 0. use ruby 2.3.7 (or have `rvm` installed and it will pick the right ruby version)
 0. `bundle install`
 0. `spring rake db:create db:migrate db:seed`
