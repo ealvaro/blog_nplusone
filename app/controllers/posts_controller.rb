@@ -4,7 +4,7 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.order(created_at: :desc).eager_load(:author)
+    @posts = Post.order(created_at: :desc).eager_load(:author).where("authors.name = ?", "John")
   end
 
   # GET /posts/1
