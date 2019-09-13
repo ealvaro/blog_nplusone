@@ -1,36 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Stack
+-----
 
-Things you may want to cover:
+* Ruby 2.3.7
+* Rails 5.0.7.2
+* postgresql on the backend
 
-* Ruby version
+System dependencies
+-------------------
 
-2.3.7
+faker (1.8.7)
+pg (0.21.0)
 
-* System dependencies
+Getting Started
+---------------
 
-fake and pg gems
+0. Clone
+0. gem install bundler
+0. use ruby 2.3.7 (or have `rvm` installed and it will pick the right ruby version)
+0. `bundle install`
+0. `spring rake db:create db:migrate db:seed`
 
-* Configuration
-
-rails g scaffold Author name:string
-rails g scaffold Post title:string body:text author:references
-
-* Database creation
-
-rake db:create db:migrate
-
-* Database initialization
-
-rake db:seed
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+Deployment instructions
+-----------------------
 
 rails s
 
