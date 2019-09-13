@@ -1,0 +1,11 @@
+/.idea
+/log/*.log
+/tmp
+*.lock
+/*.swp
+/*/*.swp
+.DS_Store
+.byebug_history
+public/javascripts/es_US.js
+public/javascripts/en.js
+public/javascripts/i18n.js
